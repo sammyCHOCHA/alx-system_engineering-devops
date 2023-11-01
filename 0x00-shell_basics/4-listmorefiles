@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Use the "la -al" command to Display current directory contents, including hidden files (starting with .)
+ls -al

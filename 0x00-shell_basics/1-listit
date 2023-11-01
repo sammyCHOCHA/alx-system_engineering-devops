@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Use the 'ls' command to list the contents of the current directory
+ls
+

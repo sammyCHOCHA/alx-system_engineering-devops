@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Use "ls -lan" to Display current directory contents in Long format with user and group IDs displayed numerically And hidden files (starting with .)
+ls -lan
