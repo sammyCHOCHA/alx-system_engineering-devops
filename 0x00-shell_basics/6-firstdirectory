@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script creates a directory named my_first_directory in the /tmp/ directory.
+
+# Use the `mkdir` command to create the directory
+mkdir /tmp/my_first_directory
+

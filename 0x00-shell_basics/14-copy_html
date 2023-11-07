@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Check if the parent directory exists
+if [ -d ../ ]; then
+    # Copy HTML files to the parent directory if they are newer or don't exist
+    find . -name "*.html" -exec cp --update -t ../ {} \;
+else
+    echo "Parent directory does not exist."
+fi
+

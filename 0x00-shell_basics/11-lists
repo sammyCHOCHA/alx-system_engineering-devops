@@ -1,0 +1,15 @@
+#!/bin/bash
+# This script lists files in current directory, parent directory, and /boot in long format
+
+# List files in the current directory
+echo "Listing files in the current directory:"
+ls -l
+
+# List files in the parent directory
+echo "Listing files in the parent directory:"
+ls -l ..
+
+# List files in /boot directory
+echo "Listing files in /boot directory:"
+ls -l /boot
+
